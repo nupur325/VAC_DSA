@@ -6,3 +6,7 @@ def reverseArray(n,arr):
         i += 1
         j += 1
     return arr
+
+## def reverse(arr):
+##      rev = arr[::-1]
+##      return rev
