@@ -1,3 +1,4 @@
+#reverse an array elements
 def reverseArray(n,arr):
     i = 0
     j = n-1
