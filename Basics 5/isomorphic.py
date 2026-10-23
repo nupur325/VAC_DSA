@@ -10,4 +10,5 @@ def IsIsomorphic(s: str, t:str)-> bool:
             return False
         d1[s[i]] = t[i]
         d2[t[i]] = s[i]
+        
     return True
