@@ -1,0 +1,6 @@
+#check if the array is sorted
+def isSorted(nums):
+    for i in range(len(nums)-1):
+        if nums[i]>nums[i+1]:
+            return False
+    return True
